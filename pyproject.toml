@@ -1,0 +1,11 @@
+[project]
+name = "httpbenchw"
+version = "0.1.2"
+description = "Lightweight HTTP load testing tool."
+readme = "README.md"
+dependencies = [
+    "requests",
+]
+
+[project.scripts]
+httpbenchw_test = "httpbenchw.main:main"
